@@ -133,6 +133,15 @@
 	
 
 	<build>
+	     <resources>
+        	<resource>
+        		<directory>src/main/java/com/raistudies/persistence</directory>
+        		<includes>
+        			<include>**/*.xml</include>
+        		</includes>
+        		<targetPath>com/raistudies/persistence</targetPath>
+        	</resource>
+        </resources>      
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
